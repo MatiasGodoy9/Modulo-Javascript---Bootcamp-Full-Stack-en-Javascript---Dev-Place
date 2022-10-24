@@ -1,0 +1,81 @@
+
+.logo {
+    text-align: center;
+}
+
+nav {
+background-color: lightblue;
+margin: auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav, a {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav, a:hover {
+    font-size: larger;
+    color: black;
+    transition: 1.5s;
+}
+
+.partnerContainer {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.images:hover {
+    height: 200px;
+    width: 300px;
+    transition: 1.5s;
+}
+
+.imgContainer {
+    margin: auto;
+}
+
+.images {
+    margin: auto;
+    height: 100px;
+    width: 150px;
+}
+
+.formulario {
+    display: grid;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.contenido {
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+form {
+    border: 5px;
+}
+
+button {
+    margin: 5px auto 5px auto;
+}
+
+footer {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
